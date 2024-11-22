@@ -2,6 +2,7 @@ import pickle
 
 from matplotlib import pyplot as plt
 
+
 def dump(filename):
     fig = plt.gcf()
     with open(filename, 'wb') as fh:
